@@ -14,14 +14,7 @@
         "*"
     ],
     "main": "./out/extension",
-    "contributes": {
-        "commands": [
-            {
-                "command": "extension.sayHello",
-                "title": "Hello World"
-            }
-        ]
-    },
+    "contributes": {},
     "scripts": {
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
