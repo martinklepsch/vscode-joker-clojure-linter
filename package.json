@@ -2,7 +2,7 @@
     "name": "clojure-joker-linter",
     "displayName": "Clojure Linter (Joker)",
     "description": "Lint Clojure/Script code using static analysis (Joker)",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "martinklepsch",
     "engines": {
         "vscode": "^1.19.0"
@@ -27,5 +27,13 @@
         "vscode": "^1.1.6",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"
+    },
+    "license": "MPL",
+    "categories": ["Languages", "Linters"],
+    "keywords": ["linter", "clojure", "clojurescript"],
+    "homepage": "https://github.com/martinklepsch/vscode-joker-clojure-linter",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/martinklepsch/vscode-joker-clojure-linter.git"
+        }
     }
-}
